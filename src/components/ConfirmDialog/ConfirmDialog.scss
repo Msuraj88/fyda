@@ -1,0 +1,175 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 350px !important;
+    background-color: #131820 !important;
+    border-radius: 20px !important;
+    border: 1px solid #FFC670 !important;
+    box-shadow: 0px 4px 21px 0px rgba(154, 154, 154, 0.25) !important;
+}
+
+.css-hz1bth-MuiDialog-container {
+    background-color: rgba(35, 35, 35, 0.4) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.overlap {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/971f874c2bd17d952d52ab6fd6c3ae29/img/texture.png);
+    background-size: 100% 100%;
+    position: relative;
+    background-color: rgba(25, 31, 41, 0.4) !important;
+}
+
+.confirm-dialog-card {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/971f874c2bd17d952d52ab6fd6c3ae29/img/texture.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.dialog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px 20px 30px;
+    color: #fff;
+
+    h4 {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        /* Reset margin */
+        color: #ffc56f;
+        font-family: "IBM Plex Mono", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: normal;
+
+    }
+
+    .close-icon {
+        cursor: pointer;
+        z-index: 99;
+    }
+}
+
+.star-img {
+    right: 2px;
+    position: absolute;
+    top: 105px;
+    width: 62px;
+}
+
+.star-img2 {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+}
+
+.group-9 {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 337px;
+}
+
+.dialog-content-body {
+    padding: 15px 50px 20px 50px;
+}
+
+.Token-info {
+
+    padding: 15px 50px 25px 50px;
+
+    .section-with-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        color: #FFF;
+        font-family: IBM Plex Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .left-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .title {
+        margin-right: 8px;
+    }
+
+    .separator {
+        font-weight: bold;
+        margin-right: 4px;
+    }
+
+    .right-content {
+        display: flex;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+    }
+
+}
+
+.investment-amount {
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #636363;
+    background: #191F29;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+
+    h4 {
+        color: #FFF;
+        font-family: IBM Plex Mono;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .investment-amount-info {
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        p {
+            margin: 0px;
+        }
+    }
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #272E3C;
+    margin: 10px 0px;
+
+}
+
+
+@media (max-width: 426px) {
+    .dialog-content-body {
+        padding: 0px;
+    }
+
+    .Token-info {
+        padding: 0px;
+    }
+}

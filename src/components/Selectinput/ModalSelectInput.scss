@@ -1,0 +1,59 @@
+/* AmountInputWithToggle.scss */
+
+.amount-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #898989;
+  background: #131820;
+  padding: 7px 10px 8px 20px;
+}
+
+label {
+  margin-bottom: 6px;
+  color: #777;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-family: IBM Plex Mono;
+
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;    
+    appearance: none;
+    margin: 0;  
+}
+input[type='number'], 
+input[type='number']:hover,
+input[type='number']:focus {
+  -moz-appearance: textfield;
+}
+
+
+/* Add your ToggleSwitch styles as needed */

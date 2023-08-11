@@ -1,0 +1,44 @@
+.Content-box {
+  border-radius: 20px;
+  border: 1px solid #f6c171;
+  background: #191f29;
+  box-shadow: 0px 4px 21px 0px rgba(154, 154, 154, 0.25);
+  margin-top: 52px;
+  padding: 25px 40px;
+  color: #fff;
+
+  .justify-content-between {
+    display: flex;
+  }
+
+  .box-header {
+    padding-bottom: 24px;
+    border-radius: 20px 20px 0px 0px;
+    place-items: center;
+
+    h5 {
+      margin: 0;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .box-header-icon {
+    border: 1px solid;
+    padding: 12px;
+    border-radius: 50%;
+    height: 56px;
+    width: auto;
+  }
+}
+
+.overlap-group {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/2244f7c3e7e6969c626def214d4ac5e8/img/group-1707484846.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 116px;
+  width: 100%;
+}

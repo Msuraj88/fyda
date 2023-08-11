@@ -1,0 +1,47 @@
+.padding-0 {
+    padding: 0px !important;
+}
+
+.Tab-switch {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 8px;
+    width: max-content;
+    border-radius: 20px;
+    border: 1px solid #898989;
+    background: #131820;
+    width: 100%;
+}
+
+.tab-option {
+    border-radius: 8px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 5px;    
+    transition: background-color 0.2s;
+    color: #FFF;
+    background: #171D27;
+    width: 31%;
+}
+
+.tab-option.selected {
+    background: #FFF;
+    color: #454545;
+}
+
+@media (max-width: 886px) {
+    .tab-option{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,156 @@
+.Select-input-style {
+    border-radius: 10px !important;
+    border: 1px solid #898989 !important;
+    background: #191F29 !important;
+    /* align-items: normal; */
+    padding: 10px 20px !important;
+    width: 100% !important;
+    text-align: left !important;
+    /* align-items: end; */
+    color: #fff !important;
+    font-family: 'Source Sans 3', sans-serif !important;
+    text-transform: none !important;
+}
+
+.Dialog-style {
+
+    .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+        border-radius: 20px !important;
+        border: 1px solid #F6C171 !important;
+        background: #191F29 !important;
+        box-shadow: 0px 4px 21px 0px rgba(154, 154, 154, 0.25) !important;
+        margin-top: 52px !important;
+        padding: 25px 40px !important;
+        color: #fff !important;
+        max-width: 530px !important;
+        margin: 0 auto !important;
+        margin-top: 28px !important;
+        min-height: 970px !important;
+    }
+
+    .css-hz1bth-MuiDialog-container {
+        background-color: transparent !important;
+        backdrop-filter: blur(0px) !important;
+        height: auto !important;
+        margin-top: 123px !important;
+    }
+
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #7A603A;
+    background: #131820;
+    border-radius: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.search-icon {
+    color: white !important;
+    margin-right: 8px;
+}
+
+.search-textfield-root {
+    flex: 1;
+}
+
+.search-textfield-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 100%;
+}
+
+.Header-select {
+    display: flex;
+
+    img {
+        cursor: pointer;
+    }
+
+    h2 {
+        color: #FFC670;
+        text-align: center;
+        font-family: IBM Plex Mono;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 0 auto;
+    }
+}
+
+.Token-select-dialog {
+    input {
+        font-family: 'Source Sans 3', sans-serif !important;
+        color: #fff !important;
+    }
+
+    .css-1ejo8xl-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root:focus-visible {
+        border: 1px solid #7A603A !important;
+    }
+}
+
+.search-placeholder {
+    color: white !important;
+}
+
+
+.Token-lists {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background: linear-gradient(270deg, rgba(34, 42, 54, 0.00) 0%, #222A36 45.83%, rgba(34, 42, 54, 0.00) 100%);
+    margin: 10px 0px;
+}
+
+
+
+.token-label {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+        color: #FFF;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0px;
+    }
+
+    small {
+        color: #6B88B5;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.right-icon {
+    margin-left: auto;
+}
+
+
+
+@media (max-width: 426px) {
+    .Dialog-style .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+        padding: 25px 0px !important;
+        margin-top: 16px !important;
+        width: 90% !important;
+    }
+}
